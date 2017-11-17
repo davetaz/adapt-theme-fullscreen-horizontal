@@ -1,0 +1,23 @@
+{
+  "name": "adapt-theme-fullscreen-horizontal",
+  "version": "2.1.2",
+  "framework": ">=2.1",
+  "homepage": "https://github.com/davetaz/adapt-theme-fullscreen-hirozontal",
+  "issues": "https://github.com/davetaz/adapt-theme-fullscreen-hirozontal/issues/",
+  "displayName": "Fullscreen Horizontal",
+  "theme": "fullscreen-horizontal",
+  "description": "A theme to use with article slider to get a horizontal scrolling course.",
+  "main": "js/vanilla.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-theme"
+  ],
+  "license": "GPLv3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
