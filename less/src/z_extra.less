@@ -1,19 +1,9 @@
-.codeinput-inner {
-	.buttons {
-		position: fixed;
-		bottom: 0px;
-		right: @navigation-height;
-		width: 200px;
-		button {
-			height: @navigation-height;
-		}
+@media all and (max-width: (@device-width-medium )) {
+	.component {
+		height: auto;
+		overflow-y: hidden;
 	}
-	.codeButton {
-		position: fixed;
-		bottom: 0px;
-		left: @navigation-height;
-		button {
-			height: @navigation-height;
-		}
+	.article {
+		overflow-y: auto;
 	}
 }

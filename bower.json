@@ -7,7 +7,7 @@
   "displayName": "Fullscreen Horizontal",
   "theme": "fullscreen-horizontal",
   "description": "A theme to use with article slider to get a horizontal scrolling course.",
-  "main": "js/vanilla.js",
+  "main": "js/theme.js",
   "keywords": [
     "adapt-plugin",
     "adapt-theme"

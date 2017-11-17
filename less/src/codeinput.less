@@ -1,0 +1,28 @@
+.codeinput-inner {
+	@media all and (min-width: (@device-width-medium )) {
+		.buttons {
+			position: fixed;
+			bottom: 0px;
+			right: @navigation-height;
+			width: 200px;
+			button {
+				height: @navigation-height;
+			}
+		}
+		.codeButton {
+			position: fixed;
+			bottom: 0px;
+			left: @navigation-height;
+			button {
+				height: @navigation-height;
+			}
+		}
+	}
+}
+.codeinput-component {
+    @media all and (max-width: (@device-width-medium )) {
+    	width: 94%;
+    	margin: 20px;
+    	height: auto;
+    }
+}
