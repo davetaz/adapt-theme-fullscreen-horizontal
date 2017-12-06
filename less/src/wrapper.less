@@ -2,10 +2,12 @@
 // ======
 
 #wrapper {
-    width: 100%;
+	@media all and (max-width: @max-width) {
+    	width: 100%;
+    }
     margin: auto;
     overflow-x: hidden;
-    padding-top: (@navigation-padding * 2) + @icon-size;
+    padding-top: 0px;
 
     .ie8 & {
         max-width: @ie8-max-width;

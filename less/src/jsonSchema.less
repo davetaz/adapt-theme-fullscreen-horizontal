@@ -1,13 +1,19 @@
 .jsonschema-inner {
-	@media all and (min-width: (@device-width-medium )) {
-		.buttons {
+	.buttons {
+		@media all and (min-width: (@max-width)) {
+			left: calc(~"(100vw/2) + " (@max-width/2) ~"- 260px");
+		}
+		@media all and (min-width: (@device-width-medium )) {
 			position: fixed;
 			bottom: 0px;
-			right: @navigation-height;
 			width: 200px;
+			right: 60px;
 			button {
 				height: @navigation-height;
 			}
+		}
+		@media all and (max-width: (@max-width)) {
+			left: auto;
 		}
 	}
 }

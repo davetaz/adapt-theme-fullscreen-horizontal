@@ -1,6 +1,12 @@
-.article-block-toolbar {
+.article-block-slider-enabled .article-block-toolbar {
 	background-color: @navigation-color;
 	height: @navigation-height;
 	position: fixed;
 	bottom: 0px;
+	left: 50%;
+    transform: translateX(-50%);
+    width: @max-width;
+    @media (max-width: @max-width) {
+    	width: 100%;
+    }
 }
