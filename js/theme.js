@@ -1,3 +1,4 @@
+var theme = "adapt-theme-fullscreen-horizontal";
 define(function(require) {
 	
 	var Adapt = require('coreJS/adapt');
